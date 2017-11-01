@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>VideoFileStreamResult</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Sriganesha</Authors>
+    <Description>VideoFileStream NuGet</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) Contoso Corporation. All rights reserved.</Copyright>
+    <PackageTags>Video Stream, VideoFileStreamResult, FileStreamResult</PackageTags>
+    <AssemblyName>Shresth.AspNet.Core</AssemblyName>
+    <RootNamespace>Shresth.AspNet.Core</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.4\VideoFileStreamResult.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
